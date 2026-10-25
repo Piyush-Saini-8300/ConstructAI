@@ -62,6 +62,7 @@ app = FastAPI(
 ALLOWED_ORIGINS = [
     "http://127.0.0.1:5173",
     "http://localhost:5173",
+    "https://constructai-rose.vercel.app",
 ]
 
 app.add_middleware(
